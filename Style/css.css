@@ -1,0 +1,153 @@
+body{
+    background-image: url(https://media.giphy.com/media/TRebCjNbc4dIA/giphy.gif);
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0%;
+}
+::placeholder { color: black; }
+::-webkit-scrollbar {display: none;}
+/*Esto es el rectangulo principal con botones(header)*/
+header{
+    width: 100%;
+    height: auto;
+    margin: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.baul_header{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+img{
+    width: 20ex;
+    height: 20ex;
+    text-align: center;
+}
+.titulo{
+    background-color: rgb(57 125 185);
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+h1{
+    margin: 3ex;
+    color: yellow;
+    font-size: 40px;    
+}
+.Titulo_principal{
+    color: aliceblue;
+}
+h2{
+    margin: 3ex;
+    color: yellow;
+    font-size: 35pxs;
+}
+p{
+   color: yellow; 
+   font-size: 35px;
+   text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+input{
+    background-color: white;
+    color: black;
+    border: none;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: 3ex;
+}
+input:hover{
+    background-color:rgb(234, 255, 71);
+    cursor: pointer;
+    transition: 1s;
+}
+.panel_button{
+    background-color: rgb(57 125 185);
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.sub_titulo{
+    background-color: rgb(57 125 185);
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+a{
+    color: aliceblue;
+}
+
+/*Lista*/
+table{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+tbody{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: center;
+}
+tr{
+    background-color: rgb(57 125 185);
+    width: 50ex;
+    height: 50ex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 40px;
+    margin-top: 10px;
+    margin: 10px;
+}
+tr:hover{
+    cursor: pointer;
+    background-color: rgb(36, 87, 189);
+    transition: 1.5s;
+}
+th{
+    width: 650px;
+    height: 650px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 50px;
+    color: aliceblue;
+}
+/*Con esto se edita el form para insertar productos*/
+form{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+a{
+    margin: 3ex;
+}
